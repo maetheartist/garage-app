@@ -66,3 +66,1257 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+/* 📏 Container */
+
+position: absolute;
+width: 1280px;
+height: 2143px;
+
+
+
+/* Frame */
+
+position: absolute;
+visibility: hidden;
+width: 100px;
+height: 100px;
+
+background: #FFFFFF;
+
+
+/* MEASURE-BOTTOM */
+
+position: absolute;
+width: 1280px;
+height: 2143px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F42500;
+
+
+/* line */
+
+position: absolute;
+height: 6px;
+left: 0px;
+right: 0px;
+bottom: -10px;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 3px;
+
+border: 1px solid #F42500;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F42500;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+right: 0px;
+top: 0px;
+
+border: 1px solid #F42500;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 33px;
+height: 20px;
+left: calc(50% - 33px/2);
+top: 10px;
+
+background: #F42500;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 27px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 16px;
+height: 384px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+width: 0px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+width: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+height: 6px;
+left: 0px;
+right: 0px;
+bottom: -10px;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 3px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+right: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: calc(50% - 19px/2);
+top: 10px;
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 13px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 24px;
+height: 37px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+width: 0px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+width: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+height: 6px;
+left: 0px;
+right: 0px;
+bottom: -10px;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 3px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+right: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2);
+top: 10px;
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 14px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 12px;
+height: 24px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+width: 0px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+width: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+height: 6px;
+left: 0px;
+right: 0px;
+bottom: -10px;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 3px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+right: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: calc(50% - 19px/2);
+top: 10px;
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 13px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 137px;
+height: 16px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+width: 6px;
+right: -10px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+left: 3px;
+top: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: 10px;
+top: calc(50% - 20px/2);
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 13px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 24px;
+height: 24px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+width: 0px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+width: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+height: 6px;
+left: 0px;
+right: 0px;
+bottom: -10px;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 3px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+right: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2);
+top: 10px;
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 14px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 426px;
+height: 12px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+width: 6px;
+right: -10px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+left: 3px;
+top: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: 10px;
+top: calc(50% - 20px/2);
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 13px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 19px;
+height: 24px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+width: 0px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+width: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+height: 6px;
+left: 0px;
+right: 0px;
+bottom: -10px;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 3px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+height: 6px;
+right: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: calc(50% - 19px/2);
+top: 10px;
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 13px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 257.75px;
+height: 8px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+width: 6px;
+right: -10px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+left: 3px;
+top: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 13px;
+height: 20px;
+left: 10px;
+top: calc(50% - 20px/2);
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 7px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* OUTER_SPACING-OUTER_SPACING */
+
+position: absolute;
+width: 257.75px;
+height: 16px;
+
+
+
+/* space */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: rgba(243, 22, 176, 0.1);
+
+
+/* first */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* second */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+border: 1px dashed #F316B0;
+
+
+/* line */
+
+position: absolute;
+width: 6px;
+right: -10px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 0px;
+left: 3px;
+top: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* Vector */
+
+position: absolute;
+width: 6px;
+height: 0px;
+left: 0px;
+bottom: 0px;
+
+border: 1px solid #F316B0;
+
+
+/* bubble */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 2px 3px;
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: 10px;
+top: calc(50% - 20px/2);
+
+background: #F316B0;
+border-radius: 3.5px;
+
+
+/* number */
+
+width: 13px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
