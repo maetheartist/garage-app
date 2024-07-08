@@ -5,11 +5,11 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <Wrapper className="footer-wrapper">
-      <Box className="footer">
+    <div className="footer-wrapper">
+      <div className="footer">
         {footerData.map(({ id, title, a, b, c, d, e, f, g, h }) => {
           return (
-            <Container key={id} className="footer-list">
+            <div key={id} className="footer-list">
               <h5>{title} </h5>
               <p>{a}</p>
               <p>{b}</p>
@@ -19,37 +19,19 @@ export default function Footer() {
               <p>{f}</p>
               <p>{g}</p>
               <p>{h}</p>
-            </Container>
+            </div>
           );
         })}
-      </Box>
+      </div>
       {footerIcons.map(({ id, icon }) => {
         return <img key={id} src={icon} alt="icon" />;
       })}
       <p>2024 The Garage Co. | All Rights Reserved.</p>
-    </Wrapper>
+    </div>
   );
 }
-const Wrapper = styled.div`
-  width: 393px;
-  height: 598px;
-  padding: 40px 16px 40px 16px;
-  color: #ffffff;
-  background-color: rgba(0, 97, 96, 1);
-`;
-const Box = styled.div`
-  width: 354px;
-  height: 538px;
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-`;
-const Container = styled.div`
-  width: 137px;
-  font-family: sans-serif;
-  margin: 10px;
 
+const Container = styled.div`
   h5 {
     margin-bottom: 10px;
     font-size: 14px;

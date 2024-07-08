@@ -7,49 +7,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .top-nav {
-    width: 1200px;
-    background-color: yellow;
-  }
-
   .container {
     width: 1209px;
     overflow: hidden;
     margin: 0 auto;
   }
-  .section-container {
-    width: 1209px;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(255, 253, 245, 1);
-  }
-
-  h1,
-  h4 {
-    font-size: 1.2rem;
-  }
-  .input-wrapper {
-    padding: 20px;
-    flex-basis: 45%;
-  }
-  .input-container {
-    width: 400px;
-    background-color: rgba(255, 253, 245, 1);
-  }
-  .input-container input {
-    padding: 25px 50px;
-  }
-
-  .footer-wrapper {
-    background-color: rgba(0, 97, 96, 1);
-    width: 1200px;
-  }
-  .footer {
-    /* width: 1200px;
-    font-size: 1.4rem;
-    display: flex; */
-  }
-  /* .footer-list{
-    flex-basis: 23%; 
-  } */
 }

@@ -1,6 +1,6 @@
-.nav-wrapper{
-    width: 393px;
-    padding: 5px;
+.nav-wrapper {
+  width: 393px;
+  padding: 5px;
 }
 
 .top-nav {
@@ -46,4 +46,10 @@ span {
 .search-icon {
   width: 20px;
   height: 20px;
+}
+@media screen and  (min-width: 780px) {
+  .nav-wrapper {
+    width: 100%;
+    display: flex;
+  }
 }

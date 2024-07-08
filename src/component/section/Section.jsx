@@ -1,49 +1,28 @@
 import React from "react";
 import Searchbar from "../Searchbar/Searchbar";
 import Button from "../button/Button";
-import "./section.css"
+import "./section.css";
 import { styled } from "styled-components";
 export default function Section() {
   return (
-    <Wrapper>
+    <div className="section-wrapper">
       <div className="section-container">
         <div>
           <h1>Get free $100 indoor delivery service upgrade!</h1>
           <h4>And be the first to know of our latest deals.</h4>
         </div>
-        <SearchContainer className="input-wrapper">
+        <div className="input-wrapper search-container">
           <div className="input-container">
-            <Searchbar
+            <input
               placeholder="Enter your email"
               width="99px"
               height="21px"
+              className="input"
             />
           </div>
           <Button />
-        </SearchContainer>
+        </div>
       </div>
-    </Wrapper>
+    </div>
   );
 }
-const Wrapper = styled.section`
-  font-size: 12px;
-  background-color: rgba(255, 253, 245, 1);
-  width: 393px;
-  height: 234px;
-  padding: 40px 16px;
-  
-`;
-const SearchContainer = styled.div`
-  width: 100%;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  margin: 10px auto;
-  .input {
-    width: 200px;
-    height: 45px;
-    border-radius: 300px;
-    border: 1px solid;
-
-  }
-`;
