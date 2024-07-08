@@ -1,0 +1,10 @@
+@media screen and (min-width: 1280px) {
+  .footer-wrapper {
+    /* display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padding: 0px;
+      column-gap: 20px; */
+    width: 1079px;
+    height: 1232px;
+  }
+}

@@ -1,0 +1,29 @@
+.product-container {
+  width: 361px;
+  margin: 0 auto;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px;
+    column-gap: 20px;
+    width: 1079px;
+    height: 1232px;
+  }
+}

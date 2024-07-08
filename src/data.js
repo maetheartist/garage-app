@@ -11,6 +11,11 @@ import picTen from "./images/chair10.png";
 import picEleven from "./images/chair3.png";
 import picTwelve from "./images/chair4.png";
 
+import ig from "./images/instagram-fill.png"
+import tk from "./images/tiktok-fill.png"
+import fb from "./images/facebook-fill.png"
+import pin from "./images/PinterestLogo.png"
+
 export const allProducts = [
   {
     id: 1,
@@ -90,3 +95,57 @@ export const allProducts = [
     price: "$1280",
   },
 ];
+
+export const footerData = [
+  {
+    id: 1,
+    title: "About The Garage",
+    a: "Customer Support",
+    b: "The Company",
+    c: "Terms and Conditions",
+    d: "Privacy Policy",
+    e: "Our Commitments",
+    f: "Blog",
+    g: "Contact",
+  },
+  {
+    id: 2,
+    title: "Our Customers",
+    a: "Customer Support",
+    b: "The Company",
+    c: "Terms and Conditions",
+    d: "Privacy Policy",
+    e: "Our Commitments",
+    f: "Blog",
+    g: "Contact",
+  },
+  {
+    id: 3,
+    title: "Shop",
+    a: "Customer Support",
+    b: "The Company",
+    c: "Terms and Conditions",
+    d: "Privacy Policy",
+    e: "Our Commitments",
+    f: "Blog",
+    g: "Contact",
+  },
+  {
+    id: 4,
+    title: "Service",
+    a: "Customer Support",
+    b: "The Company",
+    c: "Terms and Conditions",
+    d: "Privacy Policy",
+    e: "Our Commitments",
+    f: "Blog",
+    g: "Contact",
+  },
+];
+
+export const footerIcons = [
+  {id: 1, icon: ig},
+  {id: 2, icon: tk},
+  {id: 3, icon: fb},
+  {id: 4, icon: pin},
+]
