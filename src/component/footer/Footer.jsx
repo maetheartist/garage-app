@@ -6,10 +6,10 @@ import "./footer.css";
 export default function Footer() {
   return (
     <Wrapper className="footer-wrapper">
-      <Box>
+      <Box className="footer">
         {footerData.map(({ id, title, a, b, c, d, e, f, g, h }) => {
           return (
-            <Container key={id}>
+            <Container key={id} className="footer-list">
               <h5>{title} </h5>
               <p>{a}</p>
               <p>{b}</p>
@@ -38,8 +38,8 @@ const Wrapper = styled.div`
   background-color: rgba(0, 97, 96, 1);
 `;
 const Box = styled.div`
-  width: 90%;
-  height: 90%;
+  width: 354px;
+  height: 538px;
   display: flex;
   gap: 5px;
   flex-wrap: wrap;

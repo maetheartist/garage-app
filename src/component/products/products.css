@@ -13,17 +13,16 @@
   .product-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    column-gap: 5px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .product-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 0px;
-    column-gap: 20px;
-    width: 1079px;
+    column-gap: 10px;
+    width: 90%;
     height: 1232px;
   }
 }

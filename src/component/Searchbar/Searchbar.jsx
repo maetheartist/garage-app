@@ -1,16 +1,14 @@
 import React from "react";
 import { styled } from "styled-components";
-export default function Searchbar({ placeholder, width,height }) {
+export default function Searchbar({ placeholder, width, height }) {
   return (
-    
-      <Input
-        type="text"
-        className="input"
-        width={width}
-        placeholder={placeholder}
-        height={height}
-      />
-   
+    <Input
+      type="text"
+      className="input"
+      width={width}
+      placeholder={placeholder}
+      height={height}
+    />
   );
 }
 // const Container = styled.div`
@@ -22,9 +20,9 @@ export default function Searchbar({ placeholder, width,height }) {
 //   /* gap: 8px; */
 // `;
 const Input = styled.input`
-
   width: ${(props) => props.width};
   height: 16px;
   border: none;
   outline: none;
+  color: rgba(74, 74, 74, 1);
 `;

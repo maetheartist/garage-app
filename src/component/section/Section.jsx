@@ -1,17 +1,18 @@
 import React from "react";
 import Searchbar from "../Searchbar/Searchbar";
 import Button from "../button/Button";
+import "./section.css"
 import { styled } from "styled-components";
 export default function Section() {
   return (
     <Wrapper>
-      <div className="container">
-        <>
+      <div className="section-container">
+        <div>
           <h1>Get free $100 indoor delivery service upgrade!</h1>
           <h4>And be the first to know of our latest deals.</h4>
-        </>
-        <SearchContainer>
-          <div className="input">
+        </div>
+        <SearchContainer className="input-wrapper">
+          <div className="input-container">
             <Searchbar
               placeholder="Enter your email"
               width="99px"
@@ -30,9 +31,7 @@ const Wrapper = styled.section`
   width: 393px;
   height: 234px;
   padding: 40px 16px;
-  /* .container {
-    width: 361px;
-  } */
+  
 `;
 const SearchContainer = styled.div`
   width: 100%;

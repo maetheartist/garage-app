@@ -18,7 +18,7 @@ export default function Navbar() {
           <img src={List} alt="list" />
           <Logo />
         </div>
-        <div>
+        <div className="">
           <span>
             <img src={Tote} alt="shop" className="shop" />
           </span>
@@ -29,7 +29,7 @@ export default function Navbar() {
       </div>
       <div className="search">
         <img src={SearchIcon} alt="icon" className="search-icon" />
-        <Searchbar width="270px" placeholder="search for your products"/>
+        <Searchbar width="270px" placeholder="search for your products" />
       </div>
     </Container>
   );
@@ -49,7 +49,8 @@ const Container = styled.div`
   .nav-container {
     width: 361px;
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
+    margin: 10px auto
   }
   span {
     width: 20px;
@@ -57,21 +58,23 @@ const Container = styled.div`
     cursor: pointer;
   }
   .shop {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .logo {
-    width: 203px;
+    width: 200px;
     display: flex;
     gap: 12px;
     align-items: center;
   }
   .search {
-    width: 334px;
+    width: 330px;
     height: 36px;
     display: flex;
     align-items: center;
     border-radius: 300px;
-    padding: 8px, 16px;
+    padding: 7px, 14px;
+    margin: 5px auto;
+    border: 1px solid;
   }
   .search-icon {
     width: 20px;
