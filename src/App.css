@@ -6,9 +6,9 @@
   list-style: none;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 780px) {
   .container {
-    width: 1209px;
+    width: 100%;
     overflow: hidden;
     margin: 0 auto;
   }

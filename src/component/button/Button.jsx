@@ -10,5 +10,7 @@ const ButtonContainer = styled.button`
   border-radius: 600px;
   color: #ffffff;
   font-weight: 400;
+  border: none;
+  outline: none;
   background-color: rgba(0, 97, 96, 1);
 `;

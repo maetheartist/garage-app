@@ -1,4 +1,5 @@
 import React from "react";
+import { Fragment} from "react";
 import { footerData, footerIcons } from "../../data";
 import { styled } from "styled-components";
 import "./footer.css";
@@ -23,10 +24,12 @@ export default function Footer() {
           );
         })}
       </div>
+      <Fragment>
       {footerIcons.map(({ id, icon }) => {
         return <img key={id} src={icon} alt="icon" />;
       })}
       <p>2024 The Garage Co. | All Rights Reserved.</p>
+      </Fragment>
     </div>
   );
 }

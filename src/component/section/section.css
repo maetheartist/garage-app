@@ -25,7 +25,15 @@
     width: 100%;
   }
 
-  .section-container{
+  .section-container {
     display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .search-container {
+    flex-basis: 45%;
+  }
+  .section-container input {
+    padding: 0 50px;
   }
 }
