@@ -8,6 +8,7 @@ import Navbar from "./component/nav/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./routes/navigation/Nav";
 import Cart from "./routes/cart/Cart";
+import Shop from "./routes/shop/Shop";
 export default function App() {
   return (
     <div className="container">
