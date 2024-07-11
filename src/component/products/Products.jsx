@@ -1,8 +1,9 @@
 import React from "react";
 import Product from "../product/Product";
 import "./products.css";
+import { allProducts } from "../../data";
 
-export default function Products({ allProducts }) {
+export default function Products() {
   return (
     <div className="product-container">
       {allProducts.map(({ id, pic, description, price }) => (

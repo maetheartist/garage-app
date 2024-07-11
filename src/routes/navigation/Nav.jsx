@@ -8,6 +8,9 @@ import User from "../../images/User.png";
 import { Fragment } from "react";
 import SearchIcon from "../../images/MagnifyingGlass.png";
 import { Link, Outlet } from "react-router-dom";
+import Products from "../../component/products/Products";
+import Section from "../../component/section/Section";
+import Footer from "../../component/footer/Footer";
 
 export default function Nav() {
   return (
@@ -35,12 +38,15 @@ export default function Nav() {
             </span>
           </div>
         </div>
-        <Outlet />
         <div className="search">
           <img src={SearchIcon} alt="icon" className="search-icon" />
           <Searchbar width="270px" placeholder="search for your products" />
         </div>
       </div>
+      <Outlet />
+      <Products />
+      <Section />
+      <Footer />
     </Fragment>
   );
 }
