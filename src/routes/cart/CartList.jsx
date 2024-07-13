@@ -3,8 +3,9 @@ import { Fragment } from "react";
 import Logo from "../../component/logo/Logo";
 import { Outlet, Link } from "react-router-dom";
 import Shop from "../shop/Shop";
+import CartDropDown from "../../component/cart-dropdown/CartDropDown";
 
-export default function Cart() {
+export default function CartList() {
   return (
     <Fragment>
       <div>
@@ -13,7 +14,8 @@ export default function Cart() {
           <h2>No Items Selected</h2>
         </Link>
       </div>
-      {/* <Outlet /> */}
+      <CartDropDown />
+      <Outlet />
     </Fragment>
   );
 }

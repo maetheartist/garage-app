@@ -1,6 +1,12 @@
 import React from "react";
 import { styled } from "styled-components";
 export default function Searchbar({ placeholder, width, height }) {
+  const [searchQuery, setSearchQuery] = React.useState("");
+
+  const searchHandler = () => {
+    if (searchQuery === "") return;
+  };
+
   return (
     <Input
       type="text"
@@ -8,6 +14,8 @@ export default function Searchbar({ placeholder, width, height }) {
       width={width}
       placeholder={placeholder}
       height={height}
+      value={searchQuery}
+      onChange={(e) => setSearchQuery(e.target.value)}
     />
   );
 }

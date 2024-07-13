@@ -11,6 +11,7 @@ import { Link, Outlet } from "react-router-dom";
 import Products from "../../component/products/Products";
 import Section from "../../component/section/Section";
 import Footer from "../../component/footer/Footer";
+import CartDropDown from "../../component/cart-dropdown/CartDropDown";
 
 export default function Nav() {
   return (
@@ -28,25 +29,25 @@ export default function Nav() {
           </div>
 
           <div>
-            <Link to="/shop">
+            <Link to="/cart">
               <span>
                 <img src={Tote} alt="shop" className="shop" />
               </span>
             </Link>
-            <span>
-              <img src={User} alt="user" />
-            </span>
+            <Link to="/shop">
+              <span>
+                <img src={User} alt="user" />
+              </span>
+            </Link>
           </div>
         </div>
         <div className="search">
           <img src={SearchIcon} alt="icon" className="search-icon" />
           <Searchbar width="270px" placeholder="search for your products" />
         </div>
+       
       </div>
       <Outlet />
-      <Products />
-      <Section />
-      <Footer />
     </Fragment>
   );
 }
